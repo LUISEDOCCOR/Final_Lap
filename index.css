@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Unbounded', cursive;
 }
@@ -76,7 +78,7 @@ nav a{
 #inicio h1{
     font-size: 40px;
 }
-ul a i:hover{color:blueviolet;}
+ul a i:hover{color:#15324F;}
 .sobrenosotros{
     display: flex;
     flex-direction: column;
@@ -136,11 +138,11 @@ section ul li a{
 }
 #imgdespues{
     border:1px solid #D90D1E ;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 #videos{
     border: 1px solid #D90D1E;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 video{
     display: none;
@@ -153,15 +155,37 @@ video{
 }
 .videos i{
     font-size: 50px;
+    color: black;
 }
-
-
-
-
-
-
+.videos i:hover{color: #D90D1E;}
 footer{
     background-color: #D90D1E;
     color: white;
 }
 footer p{padding-left: 20px;}
+@media screen and (min-width: 1500px){
+    video{
+        display: inline;
+        height: 700px;
+    }
+    #contendio p{
+        display: none;
+    }
+    .fotoperfil{
+        display: inline;
+    }
+    #salmadeltoro, #alexescalera, #troopaudio{
+    flex-direction: row;
+    padding-left: 10%;
+    text-align: left;
+}
+#contendio{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    
+}
+}
