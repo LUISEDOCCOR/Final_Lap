@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+body{
+    font-family: 'Unbounded', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+nav{
+    text-align: center;
+    background-color: #D90D1E;
+}
+nav .contenedor{
+    padding: 0;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 25px;
+
+}
+nav ul{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding-right: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#inicio{
+    padding-top: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./media/fondoheader.png");
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#iconosheader ul{
+    display: inline-block;
+    list-style: none;
+}
+#iconosheader li{
+    float: left;
+    padding-right: 20px;
+}
+#iconosheader a{
+    color: white;
+    font-size: 25px;
+}
+#iconosheader{
+    padding-top: 20px;
+}
+#inicio h2{
+    padding-top: 15px ;
+    font-size: 30px;
+}
+#inicio h1{
+    font-size: 40px;
+}
+ul a i:hover{color:blueviolet;}
+.sobrenosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section{
+    margin-top: 20px;
+}
+section .contenedor{
+    padding: 0;
+}
+.fotoperfil{display: none;}
+.iconoscradores ul, #iconospodacst ul{
+    display: inline-block;
+    list-style: none;
+}
+.iconoscradores li{
+    float: left;
+    padding-right: 20px;
+    font-size: 20px;
+}
+#troopaudio, #salmadeltoro, #alexescalera{
+    margin-top: 30px;
+}
+#troopaudio ul{
+    list-style: none;
+}
+#troopaudio{margin-bottom: 50px;}
+#icono{border-radius: 40px;}
+.sobrenosotros h2{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.sobrenosotros h3{
+    font-size:20px ;
+    padding-bottom: 20px;
+}
+#salmadeltoro{margin-top: 100px;}
+.sobrenosotros p{
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+section ul li a{
+    color: black;
+}
+#iconospodacst li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#iconospodacst p, i{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.separador{
+    margin-top: 50px;
+}
+#imgdespues{
+    border:1px solid #D90D1E ;
+    margin-bottom: 50px;
+}
+#videos{
+    border: 1px solid #D90D1E;
+    margin-bottom: 50px;
+}
+video{
+    display: none;
+}
+.videos{
+    padding-bottom: 50px;
+}
+.videos p{
+    padding-top: 20px;
+}
+.videos i{
+    font-size: 50px;
+}
+
+
+
+
+
+
+footer{
+    background-color: #D90D1E;
+    color: white;
+}
+footer p{padding-left: 20px;}
